@@ -1,0 +1,11 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore feature modules
+sites/all/modules/olpblogs
+sites/all/modules/olpads
+sites/all/modules/squeeze_page
