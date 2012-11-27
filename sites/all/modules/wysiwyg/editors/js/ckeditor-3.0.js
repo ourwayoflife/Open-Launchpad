@@ -32,7 +32,7 @@ Drupal.wysiwyg.editor.init.ckeditor = function(settings) {
  */
 Drupal.wysiwyg.editor.attach.ckeditor = function(context, params, settings) {
   // Apply editor instance settings.
-  CKEDITOR.config.customConfig = '';
+  CKEDITOR.config.customConfig = 'config.js';
 
   settings.on = {
     instanceReady: function(ev) {
